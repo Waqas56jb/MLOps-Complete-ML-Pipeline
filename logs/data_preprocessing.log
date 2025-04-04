@@ -1,0 +1,11 @@
+2025-04-04 09:50:05,995 - data_preprocessing - DEBUG - Data loaded properly
+2025-04-04 09:50:05,996 - data_preprocessing - DEBUG - Starting preprocessing for DataFrame
+2025-04-04 09:50:06,000 - data_preprocessing - DEBUG - Target column encoded
+2025-04-04 09:50:06,004 - data_preprocessing - DEBUG - Duplicates removed
+2025-04-04 09:50:06,012 - data_preprocessing - WARNING - LookupError: 'punkt_tab' resource not found. Using basic split tokenization.
+2025-04-04 09:50:21,021 - data_preprocessing - DEBUG - Text column transformed
+2025-04-04 09:50:21,021 - data_preprocessing - DEBUG - Starting preprocessing for DataFrame
+2025-04-04 09:50:21,024 - data_preprocessing - DEBUG - Target column encoded
+2025-04-04 09:50:21,027 - data_preprocessing - DEBUG - Duplicates removed
+2025-04-04 09:50:25,032 - data_preprocessing - DEBUG - Text column transformed
+2025-04-04 09:50:25,064 - data_preprocessing - DEBUG - Processed data saved to ./data/interim
