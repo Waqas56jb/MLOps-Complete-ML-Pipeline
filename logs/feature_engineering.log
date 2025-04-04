@@ -5,3 +5,13 @@
 2025-04-04 09:59:02,947 - feature_engineering - DEBUG - TF-IDF applied and data transformed
 2025-04-04 09:59:03,081 - feature_engineering - DEBUG - Data saved to ./data\processed\train_tfidf.csv
 2025-04-04 09:59:03,120 - feature_engineering - DEBUG - Data saved to ./data\processed\test_tfidf.csv
+2025-04-04 11:38:36,346 - feature_engineering - DEBUG - Data loaded and NaNs filled from ./data/interim/train_processed.csv
+2025-04-04 11:38:36,352 - feature_engineering - DEBUG - Data loaded and NaNs filled from ./data/interim/test_processed.csv
+2025-04-04 11:38:36,437 - feature_engineering - DEBUG - TF-IDF applied and data transformed
+2025-04-04 11:38:36,587 - feature_engineering - DEBUG - Data saved to ./data\processed\train_tfidf.csv
+2025-04-04 11:38:36,635 - feature_engineering - DEBUG - Data saved to ./data\processed\test_tfidf.csv
+2025-04-04 11:38:52,690 - feature_engineering - DEBUG - Data loaded and NaNs filled from ./data/interim/train_processed.csv
+2025-04-04 11:38:52,695 - feature_engineering - DEBUG - Data loaded and NaNs filled from ./data/interim/test_processed.csv
+2025-04-04 11:38:52,786 - feature_engineering - DEBUG - TF-IDF applied and data transformed
+2025-04-04 11:38:52,936 - feature_engineering - DEBUG - Data saved to ./data\processed\train_tfidf.csv
+2025-04-04 11:38:52,983 - feature_engineering - DEBUG - Data saved to ./data\processed\test_tfidf.csv

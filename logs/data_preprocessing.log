@@ -9,3 +9,25 @@
 2025-04-04 09:50:21,027 - data_preprocessing - DEBUG - Duplicates removed
 2025-04-04 09:50:25,032 - data_preprocessing - DEBUG - Text column transformed
 2025-04-04 09:50:25,064 - data_preprocessing - DEBUG - Processed data saved to ./data/interim
+2025-04-04 11:37:13,909 - data_preprocessing - DEBUG - Data loaded properly
+2025-04-04 11:37:13,910 - data_preprocessing - DEBUG - Starting preprocessing for DataFrame
+2025-04-04 11:37:13,912 - data_preprocessing - DEBUG - Target column encoded
+2025-04-04 11:37:13,923 - data_preprocessing - DEBUG - Duplicates removed
+2025-04-04 11:37:13,945 - data_preprocessing - WARNING - LookupError: 'punkt_tab' resource not found. Using basic split tokenization.
+2025-04-04 11:37:29,702 - data_preprocessing - DEBUG - Text column transformed
+2025-04-04 11:37:29,704 - data_preprocessing - DEBUG - Starting preprocessing for DataFrame
+2025-04-04 11:37:29,704 - data_preprocessing - DEBUG - Target column encoded
+2025-04-04 11:37:29,707 - data_preprocessing - DEBUG - Duplicates removed
+2025-04-04 11:37:34,053 - data_preprocessing - DEBUG - Text column transformed
+2025-04-04 11:37:34,087 - data_preprocessing - DEBUG - Processed data saved to ./data/interim
+2025-04-04 11:38:13,721 - data_preprocessing - DEBUG - Data loaded properly
+2025-04-04 11:38:13,722 - data_preprocessing - DEBUG - Starting preprocessing for DataFrame
+2025-04-04 11:38:13,726 - data_preprocessing - DEBUG - Target column encoded
+2025-04-04 11:38:13,734 - data_preprocessing - DEBUG - Duplicates removed
+2025-04-04 11:38:13,744 - data_preprocessing - WARNING - LookupError: 'punkt_tab' resource not found. Using basic split tokenization.
+2025-04-04 11:38:28,767 - data_preprocessing - DEBUG - Text column transformed
+2025-04-04 11:38:28,768 - data_preprocessing - DEBUG - Starting preprocessing for DataFrame
+2025-04-04 11:38:28,769 - data_preprocessing - DEBUG - Target column encoded
+2025-04-04 11:38:28,771 - data_preprocessing - DEBUG - Duplicates removed
+2025-04-04 11:38:32,966 - data_preprocessing - DEBUG - Text column transformed
+2025-04-04 11:38:32,989 - data_preprocessing - DEBUG - Processed data saved to ./data/interim
