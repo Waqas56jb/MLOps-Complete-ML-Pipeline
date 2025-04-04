@@ -3,3 +3,13 @@
 2025-04-04 10:03:59,997 - model_building - DEBUG - Model training started with 4152 samples
 2025-04-04 10:04:00,743 - model_building - DEBUG - Model training completed
 2025-04-04 10:04:00,757 - model_building - DEBUG - Model saved to models/model.pkl
+2025-04-04 10:11:47,662 - model_building - DEBUG - Data loaded from ./data/processed/train_tfidf.csv with shape (4152, 51)
+2025-04-04 10:11:47,667 - model_building - DEBUG - Initializing RandomForest model with n_estimators=100, random_state=42
+2025-04-04 10:11:47,669 - model_building - DEBUG - Model training started with 4152 samples
+2025-04-04 10:11:48,355 - model_building - DEBUG - Model training completed
+2025-04-04 10:11:48,365 - model_building - DEBUG - Model saved to models/model.pkl
+2025-04-04 10:12:08,715 - model_building - DEBUG - Data loaded from ./data/processed/train_tfidf.csv with shape (4152, 51)
+2025-04-04 10:12:08,717 - model_building - DEBUG - Initializing RandomForest model with n_estimators=100, random_state=42
+2025-04-04 10:12:08,717 - model_building - DEBUG - Model training started with 4152 samples
+2025-04-04 10:12:09,391 - model_building - DEBUG - Model training completed
+2025-04-04 10:12:09,402 - model_building - DEBUG - Model saved to models/model.pkl
