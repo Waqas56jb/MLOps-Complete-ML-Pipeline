@@ -31,3 +31,75 @@
 2025-04-04 11:38:28,771 - data_preprocessing - DEBUG - Duplicates removed
 2025-04-04 11:38:32,966 - data_preprocessing - DEBUG - Text column transformed
 2025-04-04 11:38:32,989 - data_preprocessing - DEBUG - Processed data saved to ./data/interim
+2025-04-04 12:17:35,986 - data_preprocessing - DEBUG - Data loaded properly
+2025-04-04 12:17:35,988 - data_preprocessing - DEBUG - Starting preprocessing for DataFrame
+2025-04-04 12:17:35,993 - data_preprocessing - DEBUG - Target column encoded
+2025-04-04 12:17:36,000 - data_preprocessing - DEBUG - Duplicates removed
+2025-04-04 12:17:36,011 - data_preprocessing - ERROR - Error during text normalization: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - 'C:\\Users\\HP/nltk_data'
+    - 'c:\\Users\\HP\\Documents\\Waqas Work\\MLOps-Complete-ML-Pipeline\\venv\\nltk_data'
+    - 'c:\\Users\\HP\\Documents\\Waqas Work\\MLOps-Complete-ML-Pipeline\\venv\\share\\nltk_data'
+    - 'c:\\Users\\HP\\Documents\\Waqas Work\\MLOps-Complete-ML-Pipeline\\venv\\lib\\nltk_data'
+    - 'C:\\Users\\HP\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2025-04-04 12:17:36,030 - data_preprocessing - ERROR - Failed to complete the data transformation process: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - 'C:\\Users\\HP/nltk_data'
+    - 'c:\\Users\\HP\\Documents\\Waqas Work\\MLOps-Complete-ML-Pipeline\\venv\\nltk_data'
+    - 'c:\\Users\\HP\\Documents\\Waqas Work\\MLOps-Complete-ML-Pipeline\\venv\\share\\nltk_data'
+    - 'c:\\Users\\HP\\Documents\\Waqas Work\\MLOps-Complete-ML-Pipeline\\venv\\lib\\nltk_data'
+    - 'C:\\Users\\HP\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2025-04-04 12:18:52,614 - data_preprocessing - DEBUG - Data loaded properly
+2025-04-04 12:18:52,616 - data_preprocessing - DEBUG - Starting preprocessing for DataFrame
+2025-04-04 12:18:52,620 - data_preprocessing - DEBUG - Target column encoded
+2025-04-04 12:18:52,626 - data_preprocessing - DEBUG - Duplicates removed
+2025-04-04 12:18:52,637 - data_preprocessing - WARNING - LookupError: 'punkt_tab' resource not found. Using basic split tokenization.
+2025-04-04 12:19:09,133 - data_preprocessing - DEBUG - Text column transformed
+2025-04-04 12:19:09,134 - data_preprocessing - DEBUG - Starting preprocessing for DataFrame
+2025-04-04 12:19:09,134 - data_preprocessing - DEBUG - Target column encoded
+2025-04-04 12:19:09,136 - data_preprocessing - DEBUG - Duplicates removed
+2025-04-04 12:19:13,464 - data_preprocessing - DEBUG - Text column transformed
+2025-04-04 12:19:13,490 - data_preprocessing - DEBUG - Processed data saved to ./data/interim
+2025-04-04 12:22:01,232 - data_preprocessing - DEBUG - Data loaded properly
+2025-04-04 12:22:01,233 - data_preprocessing - DEBUG - Starting preprocessing for DataFrame
+2025-04-04 12:22:01,236 - data_preprocessing - DEBUG - Target column encoded
+2025-04-04 12:22:01,247 - data_preprocessing - DEBUG - Duplicates removed
+2025-04-04 12:22:01,285 - data_preprocessing - WARNING - LookupError: 'punkt_tab' resource not found. Using basic split tokenization.
+2025-04-04 12:22:43,179 - data_preprocessing - DEBUG - Text column transformed
+2025-04-04 12:22:43,180 - data_preprocessing - DEBUG - Starting preprocessing for DataFrame
+2025-04-04 12:22:43,182 - data_preprocessing - DEBUG - Target column encoded
+2025-04-04 12:22:43,189 - data_preprocessing - DEBUG - Duplicates removed
+2025-04-04 12:22:54,160 - data_preprocessing - DEBUG - Text column transformed
+2025-04-04 12:22:54,254 - data_preprocessing - DEBUG - Processed data saved to ./data/interim

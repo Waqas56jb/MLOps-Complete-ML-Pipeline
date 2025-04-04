@@ -1,22 +1,23 @@
-import os
 import pandas as pd
+import os
 from sklearn.feature_extraction.text import TfidfVectorizer
 import logging
+import yaml
 
 # Ensure the "logs" directory exists
 log_dir = 'logs'
 os.makedirs(log_dir, exist_ok=True)
 
-# Logging configuration
+# logging configuration
 logger = logging.getLogger('feature_engineering')
-logger.setLevel(logging.DEBUG)
+logger.setLevel('DEBUG')
 
 console_handler = logging.StreamHandler()
-console_handler.setLevel(logging.DEBUG)
+console_handler.setLevel('DEBUG')
 
 log_file_path = os.path.join(log_dir, 'feature_engineering.log')
 file_handler = logging.FileHandler(log_file_path)
-file_handler.setLevel(logging.DEBUG)
+file_handler.setLevel('DEBUG')
 
 formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 console_handler.setFormatter(formatter)
@@ -24,6 +25,23 @@ file_handler.setFormatter(formatter)
 
 logger.addHandler(console_handler)
 logger.addHandler(file_handler)
+
+def load_params(params_path: str) -> dict:
+    """Load parameters from a YAML file."""
+    try:
+        with open(params_path, 'r') as file:
+            params = yaml.safe_load(file)
+        logger.debug('Parameters retrieved from %s', params_path)
+        return params
+    except FileNotFoundError:
+        logger.error('File not found: %s', params_path)
+        raise
+    except yaml.YAMLError as e:
+        logger.error('YAML error: %s', e)
+        raise
+    except Exception as e:
+        logger.error('Unexpected error: %s', e)
+        raise
 
 def load_data(file_path: str) -> pd.DataFrame:
     """Load data from a CSV file."""
@@ -58,10 +76,10 @@ def apply_tfidf(train_data: pd.DataFrame, test_data: pd.DataFrame, max_features:
         test_df = pd.DataFrame(X_test_bow.toarray())
         test_df['label'] = y_test
 
-        logger.debug('TF-IDF applied and data transformed')
+        logger.debug('tfidf applied and data transformed')
         return train_df, test_df
     except Exception as e:
-        logger.error('Error during TF-IDF transformation: %s', e)
+        logger.error('Error during Bag of Words transformation: %s', e)
         raise
 
 def save_data(df: pd.DataFrame, file_path: str) -> None:
@@ -76,7 +94,9 @@ def save_data(df: pd.DataFrame, file_path: str) -> None:
 
 def main():
     try:
-        max_features = 50  # Define max_features manually since YAML is removed
+        params = load_params(params_path='params.yaml')
+        max_features = params['feature_engineering']['max_features']
+        # max_features = 50
 
         train_data = load_data('./data/interim/train_processed.csv')
         test_data = load_data('./data/interim/test_processed.csv')
