@@ -103,3 +103,25 @@
 2025-04-04 12:22:43,189 - data_preprocessing - DEBUG - Duplicates removed
 2025-04-04 12:22:54,160 - data_preprocessing - DEBUG - Text column transformed
 2025-04-04 12:22:54,254 - data_preprocessing - DEBUG - Processed data saved to ./data/interim
+2025-04-04 12:32:05,391 - data_preprocessing - DEBUG - Data loaded properly
+2025-04-04 12:32:05,392 - data_preprocessing - DEBUG - Starting preprocessing for DataFrame
+2025-04-04 12:32:05,400 - data_preprocessing - DEBUG - Target column encoded
+2025-04-04 12:32:05,407 - data_preprocessing - DEBUG - Duplicates removed
+2025-04-04 12:32:05,424 - data_preprocessing - WARNING - LookupError: 'punkt_tab' resource not found. Using basic split tokenization.
+2025-04-04 12:32:36,721 - data_preprocessing - DEBUG - Text column transformed
+2025-04-04 12:32:36,733 - data_preprocessing - DEBUG - Starting preprocessing for DataFrame
+2025-04-04 12:32:36,753 - data_preprocessing - DEBUG - Target column encoded
+2025-04-04 12:32:36,787 - data_preprocessing - DEBUG - Duplicates removed
+2025-04-04 12:32:51,630 - data_preprocessing - DEBUG - Text column transformed
+2025-04-04 12:32:51,664 - data_preprocessing - DEBUG - Processed data saved to ./data/interim
+2025-04-04 12:35:06,986 - data_preprocessing - DEBUG - Data loaded properly
+2025-04-04 12:35:06,996 - data_preprocessing - DEBUG - Starting preprocessing for DataFrame
+2025-04-04 12:35:07,006 - data_preprocessing - DEBUG - Target column encoded
+2025-04-04 12:35:07,051 - data_preprocessing - DEBUG - Duplicates removed
+2025-04-04 12:35:07,083 - data_preprocessing - WARNING - LookupError: 'punkt_tab' resource not found. Using basic split tokenization.
+2025-04-04 12:35:45,981 - data_preprocessing - DEBUG - Text column transformed
+2025-04-04 12:35:45,982 - data_preprocessing - DEBUG - Starting preprocessing for DataFrame
+2025-04-04 12:35:45,986 - data_preprocessing - DEBUG - Target column encoded
+2025-04-04 12:35:45,990 - data_preprocessing - DEBUG - Duplicates removed
+2025-04-04 12:35:49,744 - data_preprocessing - DEBUG - Text column transformed
+2025-04-04 12:35:49,791 - data_preprocessing - DEBUG - Processed data saved to ./data/interim
